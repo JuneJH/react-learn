@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OldLifeCycle from './components/OldLifeCycle'
+import NewLifeCycle from './components/NewLifeCycle'
 
 // 旧版生命周期lifeCycle
 
@@ -9,7 +9,7 @@ export default class App extends Component {
     visable:true,
   } 
   render() {
-    const showDom = this.state.visable ?  <OldLifeCycle n={this.state.n}/> : null;
+    const showDom = this.state.visable ?  <NewLifeCycle n={this.state.n}/> : null;
     return (
       <div>
         <button onClick={()=>{
