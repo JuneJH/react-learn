@@ -1,6 +1,8 @@
+import UnControlledComp from "./components/UnControlledComp";
+
 function App() {
   return (<div>
-    hello word
+    <UnControlledComp/>
   </div>);
 }
 
