@@ -65,7 +65,7 @@ export default class ControlledComp extends Component {
                         性别:<input name="sex" type="radio" value="male" checked={this.state.sex === "male"} onChange={this.handleChangeInput.bind(this)}/>男
                     </label>
                     <label>
-                        <input name="sex" type="radio" value="female" onChange={this.state.sex === "female"} onChange={this.handleChangeInput.bind(this)}/>女
+                        <input name="sex" type="radio" value="female" checked={this.state.sex === "female"} onChange={this.handleChangeInput.bind(this)}/>女
                     </label>
                     <label>
                         <select name="area" value={this.state.area} onChange={this.handleChangeInput.bind(this)}>
