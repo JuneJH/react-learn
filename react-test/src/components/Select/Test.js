@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Select  from "./index"
+import Radios from "./index"
 export default class Test extends Component {
     state = {
         datas:[{
@@ -16,7 +16,7 @@ export default class Test extends Component {
     render() {
         return (
             <div>
-                <Select name="love" {...this.state} onChange={val=>{
+                <Radios name="love" {...this.state} onChange={val=>{
                     this.setState({
                         check:val
                     })
