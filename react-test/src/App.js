@@ -1,6 +1,7 @@
+import Test from './components/Checkboxs/Test';
 function App() {
   return (<div>
-    hello word
+    <Test/>
   </div>);
 }
 
