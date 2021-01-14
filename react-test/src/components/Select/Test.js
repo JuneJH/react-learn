@@ -17,6 +17,7 @@ export default class Test extends Component {
         return (
             <div>
                 <Radios name="love" {...this.state} onChange={val=>{
+                    console.log(this.state.check)
                     this.setState({
                         check:val
                     })
