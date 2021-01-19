@@ -1,6 +1,9 @@
+import OldContext from "./components/OldContext";
+
+
 function App() {
   return (<div>
-    hello word
+    <OldContext />
   </div>);
 }
 
