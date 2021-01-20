@@ -1,6 +1,7 @@
+import NewContext from './components/newContext'
 function App() {
   return (<div>
-    hello word
+    <NewContext/>
   </div>);
 }
 
