@@ -1,0 +1,16 @@
+.drag-panel{
+    height: 600px;
+    width: 600px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    position: relative;
+    overflow: hidden;
+}
+.drag{
+    height: 50px;
+    width: 50px;
+    background-color: #f40;
+    position: absolute;
+    left:0;
+    top:0;
+}
